@@ -1,0 +1,83 @@
+2020/11/10 19:29:41 [INFO] Terraform version: 0.13.5  
+2020/11/10 19:29:41 [INFO] Go runtime version: go1.14.7
+2020/11/10 19:29:41 [INFO] CLI args: []string{"C:\\terraform\\terraform.exe", "init"}
+2020/11/10 19:29:41 [DEBUG] Attempting to open CLI config file: C:\Users\PaulW\AppData\Roaming\terraform.rc
+2020/11/10 19:29:41 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2020/11/10 19:29:41 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2020/11/10 19:29:41 [DEBUG] ignoring non-existing provider search directory C:\Users\PaulW\AppData\Roaming\terraform.d\plugins
+2020/11/10 19:29:41 [DEBUG] ignoring non-existing provider search directory C:\Users\PaulW\AppData\Roaming\HashiCorp\Terraform\plugins
+2020/11/10 19:29:41 [INFO] CLI command args: []string{"init"}
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: installing child modules for . into .terraform\modules
+2020/11/10 19:29:41 [DEBUG] Module installer: begin appservice
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: appservice is not yet installed
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\appservice prior to install of appservice
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: appservice has local path "../../modules/appservice"
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: appservice uses directory from parent: ..\..\modules\appservice
+2020/11/10 19:29:41 [DEBUG] Module installer: appservice installed at ..\..\modules\appservice
+2020/11/10 19:29:41 [DEBUG] Module installer: begin network
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: network is not yet installed
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\network prior to install of network
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: network has local path "../../modules/network"
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: network uses directory from parent: ..\..\modules\network
+2020/11/10 19:29:41 [DEBUG] Module installer: network installed at ..\..\modules\network
+2020/11/10 19:29:41 [DEBUG] Module installer: begin nsg-test
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: nsg-test is not yet installed
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\nsg-test prior to install of nsg-test
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: nsg-test has local path "../../modules/networksecuritygroup"
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: nsg-test uses directory from parent: ..\..\modules\networksecuritygroup
+2020/11/10 19:29:41 [DEBUG] Module installer: nsg-test installed at ..\..\modules\networksecuritygroup
+2020/11/10 19:29:41 [DEBUG] Module installer: begin publicip
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: publicip is not yet installed
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\publicip prior to install of publicip
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: publicip has local path "../../modules/publicip"
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: publicip uses directory from parent: ..\..\modules\publicip
+2020/11/10 19:29:41 [DEBUG] Module installer: publicip installed at ..\..\modules\publicip
+2020/11/10 19:29:41 [DEBUG] Module installer: begin resource_group
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: resource_group is not yet installed
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\resource_group prior to install of resource_group
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: resource_group has local path "../../modules/resource_group"
+2020/11/10 19:29:41 [TRACE] ModuleInstaller: resource_group uses directory from parent: ..\..\modules\resource_group
+2020/11/10 19:29:41 [DEBUG] Module installer: resource_group installed at ..\..\modules\resource_group
+2020/11/10 19:29:41 [TRACE] modsdir: writing modules manifest to .terraform\modules\modules.json
+2020/11/10 19:29:41 [TRACE] Meta.Backend: built configuration for "azurerm" backend with hash value -355685138
+2020/11/10 19:29:41 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2020/11/10 19:29:41 [DEBUG] New state was assigned lineage "d64ad9f4-8198-4cf1-0cec-1c8e1350a286"
+2020/11/10 19:29:41 [TRACE] Meta.Backend: moving from default local state only to "azurerm" backend
+2020/11/10 19:29:41 [DEBUG] checking for provisioner in "."
+2020/11/10 19:29:41 [DEBUG] checking for provisioner in "C:\\terraform"
+2020/11/10 19:29:41 [INFO] Failed to read plugin lock file .terraform\plugins\windows_386\lock.json: open .terraform\plugins\windows_386\lock.json: The system cannot find the path specified.
+2020/11/10 19:29:41 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2020/11/10 19:29:41 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2020/11/10 19:29:41 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2020/11/10 19:29:41 [TRACE] statemgr.Filesystem: read nil snapshot
+2020/11/10 19:29:41 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2020/11/10 19:29:41 [DEBUG] New state was assigned lineage "53336683-e4e1-a74b-5ee3-3888bc6ad6b4"
+2020/11/10 19:29:41 [TRACE] Preserving existing state lineage "53336683-e4e1-a74b-5ee3-3888bc6ad6b4"
+2020/11/10 19:29:42 [TRACE] Meta.Backend: instantiated backend of type *azure.Backend
+2020/11/10 19:29:42 [DEBUG] checking for provisioner in "."
+2020/11/10 19:29:42 [DEBUG] checking for provisioner in "C:\\terraform"
+2020/11/10 19:29:42 [INFO] Failed to read plugin lock file .terraform\plugins\windows_386\lock.json: open .terraform\plugins\windows_386\lock.json: The system cannot find the path specified.
+2020/11/10 19:29:42 [TRACE] Meta.Backend: backend *azure.Backend does not support operations, so wrapping it in a local backend
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x8 pc=0xf8a6ff]
+
+goroutine 1 [running]:
+github.com/hashicorp/terraform/backend/remote-state/azure.(*RemoteClient).Get(0x159a8000, 0x37b2740, 0x154623c0, 0x474423)
+	/home/circleci/project/project/backend/remote-state/azure/client.go:42 +0x11f
+github.com/hashicorp/terraform/states/remote.(*State).refreshState(0x155b6180, 0x7, 0x0)
+	/home/circleci/project/project/states/remote/state.go:111 +0x2b
+github.com/hashicorp/terraform/states/remote.(*State).RefreshState(0x155b6180, 0x0, 0x0)
+	/home/circleci/project/project/states/remote/state.go:104 +0x68
+github.com/hashicorp/terraform/command.(*InitCommand).Run(0x15402b40, 0x15404118, 0x0, 0x0, 0x1548e110)
+	/home/circleci/project/project/command/init.go:278 +0x13ac
+github.com/mitchellh/cli.(*CLI).Run(0x154b40a0, 0x154b40a0, 0x15a1feb0, 0x1)
+	/home/circleci/project/project/vendor/github.com/mitchellh/cli/cli.go:255 +0x1ce
+main.wrappedMain(0x0)
+	/home/circleci/project/project/main.go:275 +0xb04
+main.realMain(0x0)
+	/home/circleci/project/project/main.go:106 +0x96
+main.main()
+	/home/circleci/project/project/main.go:42 +0x38
