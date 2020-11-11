@@ -28,6 +28,5 @@ resource "azurerm_network_security_group" "nsg" {
 }
 resource "azurerm_subnet_network_security_group_association" "test" {
     subnet_id                 = var.subnet_id
-#    network_security_group_id = azurerm_network_security_group.nsg.id
-    network_security_group_id = var.azurerm_network_security_group_nsg_id
+    network_security_group_id = azurerm_network_security_group.nsg.id
 }
