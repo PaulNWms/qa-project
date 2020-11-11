@@ -1,0 +1,87 @@
+2020/11/10 18:19:49 [INFO] Terraform version: 0.13.5  
+2020/11/10 18:19:49 [INFO] Go runtime version: go1.14.7
+2020/11/10 18:19:49 [INFO] CLI args: []string{"/home/paul/terraform/terraform", "init"}
+2020/11/10 18:19:49 [DEBUG] Attempting to open CLI config file: /home/paul/.terraformrc
+2020/11/10 18:19:49 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /home/paul/.terraform.d/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /home/paul/.local/share/terraform/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /usr/share/ubuntu/terraform/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2020/11/10 18:19:49 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2020/11/10 18:19:49 [INFO] CLI command args: []string{"init"}
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: installing child modules for . into .terraform/modules
+2020/11/10 18:19:49 [DEBUG] Module installer: begin appservice
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: appservice is not yet installed
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/appservice prior to install of appservice
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: appservice has local path "../../modules/appservice"
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: appservice uses directory from parent: ../../modules/appservice
+2020/11/10 18:19:49 [DEBUG] Module installer: appservice installed at ../../modules/appservice
+2020/11/10 18:19:49 [DEBUG] Module installer: begin network
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: network is not yet installed
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/network prior to install of network
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: network has local path "../../modules/network"
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: network uses directory from parent: ../../modules/network
+2020/11/10 18:19:49 [DEBUG] Module installer: network installed at ../../modules/network
+2020/11/10 18:19:49 [DEBUG] Module installer: begin nsg-test
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: nsg-test is not yet installed
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/nsg-test prior to install of nsg-test
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: nsg-test has local path "../../modules/networksecuritygroup"
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: nsg-test uses directory from parent: ../../modules/networksecuritygroup
+2020/11/10 18:19:49 [DEBUG] Module installer: nsg-test installed at ../../modules/networksecuritygroup
+2020/11/10 18:19:49 [DEBUG] Module installer: begin publicip
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: publicip is not yet installed
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/publicip prior to install of publicip
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: publicip has local path "../../modules/publicip"
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: publicip uses directory from parent: ../../modules/publicip
+2020/11/10 18:19:49 [DEBUG] Module installer: publicip installed at ../../modules/publicip
+2020/11/10 18:19:49 [DEBUG] Module installer: begin resource_group
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: resource_group is not yet installed
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: cleaning directory .terraform/modules/resource_group prior to install of resource_group
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: resource_group has local path "../../modules/resource_group"
+2020/11/10 18:19:49 [TRACE] ModuleInstaller: resource_group uses directory from parent: ../../modules/resource_group
+2020/11/10 18:19:49 [DEBUG] Module installer: resource_group installed at ../../modules/resource_group
+2020/11/10 18:19:49 [TRACE] modsdir: writing modules manifest to .terraform/modules/modules.json
+2020/11/10 18:19:49 [TRACE] Meta.Backend: built configuration for "azurerm" backend with hash value 3939282158
+2020/11/10 18:19:49 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2020/11/10 18:19:49 [DEBUG] New state was assigned lineage "de9d6ffd-0f58-b63d-e60b-39714d6bfe4f"
+2020/11/10 18:19:49 [TRACE] Meta.Backend: moving from default local state only to "azurerm" backend
+2020/11/10 18:19:49 [DEBUG] checking for provisioner in "."
+2020/11/10 18:19:49 [DEBUG] checking for provisioner in "/home/paul/terraform"
+2020/11/10 18:19:49 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2020/11/10 18:19:49 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2020/11/10 18:19:49 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2020/11/10 18:19:49 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2020/11/10 18:19:49 [TRACE] statemgr.Filesystem: read nil snapshot
+2020/11/10 18:19:49 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2020/11/10 18:19:49 [DEBUG] New state was assigned lineage "eac46a77-d1d4-c860-8b36-17b37b9872fb"
+2020/11/10 18:19:49 [TRACE] Preserving existing state lineage "eac46a77-d1d4-c860-8b36-17b37b9872fb"
+2020/11/10 18:19:49 [TRACE] Meta.Backend: instantiated backend of type *azure.Backend
+2020/11/10 18:19:49 [DEBUG] checking for provisioner in "."
+2020/11/10 18:19:49 [DEBUG] checking for provisioner in "/home/paul/terraform"
+2020/11/10 18:19:49 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2020/11/10 18:19:49 [TRACE] Meta.Backend: backend *azure.Backend does not support operations, so wrapping it in a local backend
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x10 pc=0x12589df]
+
+goroutine 1 [running]:
+github.com/hashicorp/terraform/backend/remote-state/azure.(*RemoteClient).Get(0xc000660000, 0xc0002a3650, 0x4120a20, 0x26d724f)
+	/home/circleci/project/project/backend/remote-state/azure/client.go:42 +0x15f
+github.com/hashicorp/terraform/states/remote.(*State).refreshState(0xc0005b2c60, 0x7, 0x0)
+	/home/circleci/project/project/states/remote/state.go:111 +0x38
+github.com/hashicorp/terraform/states/remote.(*State).RefreshState(0xc0005b2c60, 0x0, 0x0)
+	/home/circleci/project/project/states/remote/state.go:104 +0x6c
+github.com/hashicorp/terraform/command.(*InitCommand).Run(0xc000721180, 0xc00012c030, 0x0, 0x0, 0xc0001a40c0)
+	/home/circleci/project/project/command/init.go:278 +0x16a7
+github.com/mitchellh/cli.(*CLI).Run(0xc0001aa280, 0xc0001aa280, 0xc0006bfd48, 0x1)
+	/home/circleci/project/project/vendor/github.com/mitchellh/cli/cli.go:255 +0x1da
+main.wrappedMain(0x0)
+	/home/circleci/project/project/main.go:275 +0xc90
+main.realMain(0x0)
+	/home/circleci/project/project/main.go:106 +0xde
+main.main()
+	/home/circleci/project/project/main.go:42 +0x3a
